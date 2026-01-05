@@ -1,5 +1,5 @@
 import ClientCarousel from "@/components/client-carousell";
-import Footer from "@/components/footer";
+import Contact from "@/components/contact";
 import Navbar from "@/components/navbar";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         title="Client Work"
         showLinks={true}
       />
-      <Footer />
+      <Contact />
     </div>
   );
 }

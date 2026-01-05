@@ -1,4 +1,5 @@
 import ClientCarousel from "@/components/client-carousell";
+import Contact from "@/components/contact";
 import Navbar from "@/components/navbar";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         title="Personal Work"
         showLinks={true}
       />
+      <Contact />
     </div>
   );
 }
